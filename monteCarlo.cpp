@@ -27,7 +27,7 @@ int main(int argc, char *argv[]){
 
     for(int i=0; i<numPoints; i++){
         double x = ((double) rand() / (RAND_MAX));
-        double y = ((double) rand() / (RAND_MAX));
+	double y = ((double) rand() / (RAND_MAX));
         if(y < sqrt(1-(x*x))) {
             inCircle++;
         }
