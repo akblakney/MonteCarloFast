@@ -23,8 +23,7 @@ int main(int argc, char *argv[]){
     cout << numPoints << std::endl;
     srand(time(NULL));
 
-    int inCircle = 0;
-    int outCircle = 0;
+    long int inCircle = 0;
 
     for(int i=0; i<numPoints; i++){
         double x = ((double) rand() / (RAND_MAX));
@@ -39,6 +38,8 @@ int main(int argc, char *argv[]){
     int speed = 1000000000 * seconds / numPoints;
     double result = (double) inCircle / numPoints;
     cout << "Pi approximation: " << result * 4 << std::endl;
+    cout << "inCircle: " << inCircle << std::endl;
+    cout << "numPoints: " << numPoints << std::endl;
     cout << "Time per iteration: " << speed << " nanoseconds" << std::endl;
     cout << "Total time: " << seconds << " seconds" << std::endl;
  
