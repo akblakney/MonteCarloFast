@@ -1,0 +1,6 @@
+40000000000
+Pi approximation: 3.14159
+inCircle: 31415924320
+numPoints: 40000000000
+Time per iteration: 14 nanoseconds
+Total time: 573.628 seconds
